@@ -13,7 +13,7 @@ footer {
   background-color: #25a2c3;
   color: #c8e7f0;
   text-align: center;
-  padding: 20px 0 50px ;
+  padding: 20px 0 50px;
 }
 
 footer h3 {
@@ -27,9 +27,9 @@ footer div {
   line-height: 1.5;
 }
 footer hr {
-    width: 40%;
-    border: 1px solid white;
-    margin: 1rem auto 2rem;
+  width: 40%;
+  border: 1px solid white;
+  margin: 1rem auto 2rem;
 }
 footer a {
   color: #c8e7f0;
@@ -39,14 +39,101 @@ footer i {
 }
 
 body {
-    color: #393d41;
-    padding: 0 1.2rem;
-    line-height: 1.65;
-    font-family: "Open Sans";
+  color: #393d41;
+  line-height: 1.65;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+h1,
+h3,
+h4 {
+  color: #25a2c3;
 }
 
 button {
-    background-color: #f04c2f;
-    font-family: "Montserrat";
-    font-weight: 700;
+  background-color: #f04c2f;
+  font-family: "Montserrat";
+  font-weight: 700;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  text-transform: uppercase;
+  margin: 25px 0;
+}
+
+.first {
+  background-image: url("../images/banner.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px 40px;
+  padding-bottom: 0;
+}
+h1 {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+  padding: 0 40px;
+}
+
+.second img {
+  border-radius: 50%;
+  width: 300px;
+  margin: 20px 0;
+}
+.second {
+  padding: 20px 0 30px;
+}
+.second p {
+    padding-bottom: 10px;
+}  
+
+.quote {
+  background-color: #f04c2f;
+
+  padding: 20px 0;
+  color: white;
+}
+
+.quote .catch {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.quote p span:nth-of-type(2) {
+    font-size: 11px;
+}
+
+.list .card {    
+    margin :30px;  
+    border: 1px solid #dee1e3;
+    padding-bottom: 20px;  
+}
+.list {
+    padding: 20px 0;
+}
+
+.list .card  img {
+    width: 100%;
 }
