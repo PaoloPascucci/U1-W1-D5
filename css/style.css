@@ -1,1 +1,52 @@
 /* Your styles here */
+header {
+  background-color: black;
+  padding: 3rem;
+  margin: auto;
+  text-align: center;
+}
+header img {
+  height: 50px;
+}
+
+footer {
+  background-color: #25a2c3;
+  color: #c8e7f0;
+  text-align: center;
+  padding: 20px 0 50px ;
+}
+
+footer h3 {
+  font-weight: bold;
+  color: white;
+  line-height: 1.65;
+}
+
+footer div {
+  padding: 10px;
+  line-height: 1.5;
+}
+footer hr {
+    width: 40%;
+    border: 1px solid white;
+    margin: 1rem auto 2rem;
+}
+footer a {
+  color: #c8e7f0;
+}
+footer i {
+  color: white;
+}
+
+body {
+    color: #393d41;
+    padding: 0 1.2rem;
+    line-height: 1.65;
+    font-family: "Open Sans";
+}
+
+button {
+    background-color: #f04c2f;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
